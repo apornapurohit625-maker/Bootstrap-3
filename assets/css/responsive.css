@@ -1,0 +1,103 @@
+@media (max-width: 768px) {
+#navber{
+    padding: 18px !important;
+     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+}
+#navber .menu-bar{
+background-color: transparent;
+border: none;
+}
+.mobile_device_offcanvas{
+    width:70%;
+}
+   
+#hero h5{
+font-size: 16px;
+}
+#hero h1{
+font-size: 40px;
+}
+#hero p{
+font-size: 16px;
+}
+#hero .btns{
+    gap:15px;
+}
+#hero .btns a:first-child{
+padding: 16px;
+font-size: 16px;
+}
+#hero .btns a:last-child{
+padding: 16px;
+font-size: 16px;
+}
+#hero .follow p{
+    font-size: 18px;
+}
+#about{
+    padding: 40px 15px;
+    text-align: center;
+}
+#about h2{
+font-size: 32px;
+}
+#about p{
+ font-size: 16px;
+ line-height: 170%;
+}
+#about img{
+    max-width: 320px;
+   transform: rotateY(360deg);
+}
+#about .btns a{
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+}
+#frame{
+    padding: 30px 15px;
+    align-items: center;
+}
+#frame .parent{
+ margin-bottom: 20px;
+    padding: 25px 18px;
+    align-items: center;
+}
+#frame .parent img{
+    width: 55px;
+}
+#frame h3{
+    font-size: 18px;
+}
+#frame p{
+    font-size: 14px;
+}
+#experience h2{
+font-size: 40px;
+padding: 15px 20px;
+}
+#experience .parent::after {
+    top: 20px;
+    left: -45px;
+  }
+  #experience .parent::before {
+    top: 30px;
+    left: -34px;
+  }
+  #experience .row{
+    padding-left: 50px;
+    position: relative;
+  }
+  #experience .row::after{
+    content: "";
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    height: 100%;
+    border-right: 2px dashed #7a7a7a;
+  }
+  #experience .parent .line{
+    display: none;
+  }
+
+} 
